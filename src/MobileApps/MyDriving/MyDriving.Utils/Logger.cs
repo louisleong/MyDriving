@@ -13,13 +13,13 @@ namespace MyDriving.Utils
     {
         static ILogger _instance;
         public static string HockeyAppiOS => "09f39eb0435c431ebe954f6faf3a1537";
-        public static string HockeyAppAndroid => "a8d04f91d07f4e5c91be4034805af61b";
+        public static string HockeyAppAndroid => "7fefc83d87d64fb5af2f2daff465a576";
         public static string HockeyAppUWP => "5bff51e242a84d99bddbc6037071656a";
         /// <summary>
         /// You can generate a key from: www.bingmapsportal.com
         /// This enables maps to show on the Past Trips screen
         /// </summary>
-        public static string BingMapsAPIKey => "____BingMapsAPIKey____";
+        public static string BingMapsAPIKey => "Y5cdxOMFAyr9aOTCHNKe~Bcf3-ndtRkefQxgg9On-Pw~At9Y2S-U9CiddoUOXlebMRCkErAAULhEtb2Xn-TJ5l7WQ-xs7_HVkKI7RkmRa61g";
 
         public static ILogger Instance => _instance ?? (_instance = ServiceLocator.Instance.Resolve<ILogger>());
 
